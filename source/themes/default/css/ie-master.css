@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#logoDiv
+{
+background-image:url(../images/logo.gif);
+}

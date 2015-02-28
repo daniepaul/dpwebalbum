@@ -1,0 +1,411 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+margin:0px;
+margin-top:15px;
+background-color:#0a0a0a;
+background-image:url(../images/back.jpg);
+background-repeat:no-repeat;
+background-position:center top;
+background-attachment:fixed;
+font-family:Verdana;
+color:#edd5a7;
+overflow-y:scroll;
+}
+
+a
+{
+text-decoration:none;
+font-style:italic;
+color:#edd5a7;
+}
+a:hover
+{
+text-decoration:underline;
+}
+
+div#logoDiv
+{
+width:450px;
+height:120px;
+background-image:url(../images/logo.png);
+background-position:center center;
+background-repeat:no-repeat;
+}
+
+ul.indexmenu, ul.menu
+{
+list-style:none;
+}
+ul.menu li
+{
+float:left;
+height:50px;
+background-repeat:no-repeat;
+background-position:top left;
+margin-left:15px;
+padding-left:55px;
+padding-top:10px;
+}
+ul.menu li a
+{
+font-size:10pt;
+font-style:normal;
+font-weight:bold;
+}
+ul.indexmenu li
+{
+float:left;
+height:200px;
+background-repeat:no-repeat;
+background-position:center center;
+margin-left:15px;
+}
+ul.indexmenu li a div
+{
+height:200px;
+width:175px;
+cursor:pointer;
+}
+ul.indexmenu li a div span, div#logoDiv span
+{
+display:none;
+}
+ul.menu li#home
+{
+background-image:url(../images/mhome.png);
+}
+
+ul.menu li#about
+{
+background-image:url(../images/mabout.png);
+}
+
+ul.menu li#gallery
+{
+background-image:url(../images/mgallery.png);
+}
+
+ul.menu li#interest
+{
+background-image:url(../images/minterest.png);
+}
+
+ul.menu li#guestbook
+{
+background-image:url(../images/mguestbook.png);
+}
+
+ul.indexmenu li#about
+{
+background-image:url(../images/about.png);
+}
+
+ul.indexmenu li#gallery
+{
+background-image:url(../images/gallery.png);
+}
+
+ul.indexmenu li#interest
+{
+background-image:url(../images/interest.png);
+}
+
+ul.indexmenu li#guestbook
+{
+background-image:url(../images/guestbook.png);
+}
+
+span.copyrightC
+{
+font-size:20pt;
+color:#655b49;
+}
+span.copyright
+{
+font-size:10pt;
+color:#655b49;
+}
+
+table.logintable
+{
+color:#edd5a7;
+font-size:10pt;
+}
+span#title,span.title
+{
+font-size:14pt;
+font-family:Georgia;
+font-weight:bold;
+text-decoration:underline;
+line-height:150%;
+}
+span.title
+{
+text-decoration:none;
+}
+span.subtitle
+{
+font-size:12pt;
+font-family:Georgia;
+}
+span.subtitle b
+{
+text-decoration:underline;
+}
+table.logintable tr td input
+{
+width:180px;
+background-color:#6e4f2d;
+color:#BBBBBB;
+border:1px solid #0a0a0a;
+}
+table.logintable tr td input#loginbut, table.logintable tr td input#isalive
+{
+width:auto;
+border:0px;
+vertical-align:middle;
+}
+.welcomemsg
+{
+font-size:9pt;
+}
+div.sidemenu
+{
+font-size:10pt;
+font-weight:bold;
+margin-left:15px;
+margin-top:8px;
+}
+div.sidemenu ul
+{
+font-size:10pt;
+list-style:none;
+margin:0px;
+font-weight:normal;
+padding-left:15px;
+}
+div.sidemenu ul li
+{
+margin-left:0px;
+}
+table.albumtable
+{
+font-size:10pt;
+}
+table.albumtable tr td
+{
+text-transform:capitalize;
+}
+
+/*##############pageing class##########*/
+div.pagination {
+	padding:3px;
+	margin:3px;
+	text-align:center;
+	font-size:8pt;
+}
+
+div.pagination a {
+	padding: 1px 3px 1px 3px;
+	margin-right: 1px;
+	border: 1px solid #AAAAAA;
+	background-color:#888888;
+	text-decoration: none; 
+	color: #ffffff;
+}
+div.pagination a:hover, div.pagination a:active {
+	padding: 1px 3px 1px 3px;
+	margin-right: 1px;
+	border: 1px solid #AAAAAA;
+	background-color:#9E9E9E;
+}
+div.pagination span.current {
+	padding: 1px 3px 1px 3px;
+	margin-right: 1px;
+	border: 1px solid #AAAAAA;
+	font-weight: bold;
+	background-color: #D8D8D8;
+	color: #464646;
+}
+div.pagination span.disabled {
+	padding: 1px 3px 1px 3px;
+	margin-right: 1px;
+	border: 1px solid #C7C7C7;
+	color: #ccc;
+}
+div.displayphoto
+{
+font-size:10pt;
+}
+table.phototable
+{
+font-size:10pt;
+}
+table.phototable tr td img
+{
+border:2px #CCCCCC solid;
+}
+table.phototable tr td img.profile
+{
+border:0px;
+}
+table.phototable tr td img:hover
+{
+border-color:#FFFF00;
+}
+input.DatePicker{
+	display: block;
+	width: 150px;
+	padding: 3px 3px 3px 24px;
+	border: 1px solid #0070bf;
+	font-size: 13px;
+	background: #fff url(../images/date.gif) no-repeat top left;
+	cursor: pointer;
+}
+input:focus.DatePicker{
+	background: #fffce9 url(../images/datefocus.gif) no-repeat top left;
+}
+.dp_container{
+	position: relative;
+	padding: 0;
+	z-index: 500;
+	color:#000000;
+}
+.dp_cal{
+	background-color: #fff;
+	border: 1px solid #0070bf;
+	position: absolute;
+	width: 177px;
+	top: 24px;
+	left: 0;
+	margin: 0px 0px 3px 0px;
+}
+.dp_cal table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+		color:#000000;
+}
+.dp_cal select{
+	margin: 2px 3px;
+	font-size: 11px;
+}
+.dp_cal select option{
+	padding: 1px 3px;
+}
+.dp_cal th,
+.dp_cal td{
+	width: 14.2857%;
+	text-align: center;
+	font-size: 11px;
+	padding: 2px 0;
+}
+.dp_cal th{
+	border: solid #aad4f2;
+	border-width: 1px 0;
+	color: #797774;
+	background: #daf2e6;
+	font-weight: bold;
+}
+.dp_cal td{
+	cursor: pointer;
+}
+.dp_cal thead th{
+	background: #d9eefc;
+}
+.dp_cal td.dp_roll{
+	color: #000;
+	background: #fff6bf;
+}
+/* must have this for the IE6 select box hiding */
+.dp_hide{
+	visibility: hidden;
+}
+.dp_empty{
+	background: #eee;
+}
+.dp_today{
+	background: #daf2e6;
+}
+.dp_selected{
+	color: #fff;
+	background: #328dcf;
+}
+.addform
+{
+font-size:10pt;
+margin-left:100px;
+}
+.addform input,.addform textarea
+{
+width:500px;
+}
+.addform textarea { height:100px; }
+.addform input.DatePicker
+{
+width:150px;
+}
+.addform input.reset
+{
+width:auto;
+}
+div.albuminfo
+{
+font-size:9pt;
+}
+div.albuminfo img
+{
+width:100px;
+}
+.reviewalbumdiv
+{
+border:1px #666666 solid;
+margin:5px;
+height:auto;
+position:relative;
+height:155px;
+}
+.reviewalbumdiv div
+{
+float:left;
+}
+.reviewalbumdiv img
+{
+height:150px;
+}
+.reviewalbumdiv img.reset
+{
+height:auto;
+}
+.reviewalbumdiv textarea
+{
+margin-left:10px;
+float:right;
+}
+input.searchinput
+{
+width:300px;
+background-image:url(../images/search.jpg);
+background-repeat:no-repeat;
+background-position:2px center;
+padding:2px;
+padding-left:22px;
+}
+.birthday
+{
+padding:15px;
+padding-left:50px;
+font-size:10pt;
+background-image:url(../images/birthday.png);
+background-repeat:no-repeat;
+background-position:center left;
+}
+
+.birthday b
+{
+font-size:14pt;
+color:#FFCC00;
+text-decoration:blink;
+}

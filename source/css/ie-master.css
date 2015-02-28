@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#logoDiv
+{
+background-image:url(../images/logo.gif);
+}
+ul.indexmenu li#about
+{
+background-image:url(../images/about.gif);
+}
+
+ul.indexmenu li#gallery
+{
+background-image:url(../images/gallery.gif);
+}
+
+ul.indexmenu li#interest
+{
+background-image:url(../images/interest.gif);
+}
+
+ul.indexmenu li#guestbook
+{
+background-image:url(../images/guestbook.gif);
+}
+.birthday
+{
+background-image:url(../images/birthday.gif);
+}

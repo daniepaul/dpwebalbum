@@ -1,0 +1,13 @@
+<link href="css/info.css" rel="stylesheet" />
+<link href="css/main.css" rel="stylesheet" />
+<link href="css/widgContent.css" rel="stylesheet" />
+<link href="css/widgEditor.css" rel="stylesheet" />
+
+<script type="text/javascript" src="scripts/widgEditor.js"></script>
+
+	<div id="content">
+		<form action="submit.php" onsubmit="alert('Your submitted HTML was:\n\n' + document.getElementById('noise').value); return false;">
+				<textarea id="noise" name="noise" class="widgEditor nothing">&lt;p&gt;widgEditor &lt;strong&gt;automatically&lt;/strong&gt; integrates the content that was in the textarea!&lt;/p&gt;</textarea>
+				<input type="submit" value="Check the submitted code" />
+		</form>
+	</div>

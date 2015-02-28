@@ -1,0 +1,46 @@
+.fileUploadQueue
+{
+height:500px;
+max-height:500px;
+width:380px;
+overflow-y:scroll;
+border:2px solid #642100;
+}
+
+.fileUploadQueueItem {
+	font: 11px Verdana, Geneva, sans-serif;
+	background-color: #F5F5F5;
+	border: 3px solid #E5E5E5;
+	margin-top: 5px;
+	padding: 10px;
+	width: 330px;
+	color:#000000;
+}
+.fileUploadQueueItem .cancel {
+	float: right;
+}
+.fileUploadProgress {
+	background-color: #FFFFFF;
+	border-top: 1px solid #808080;
+	border-left: 1px solid #808080;
+	border-right: 1px solid #C5C5C5;
+	border-bottom: 1px solid #C5C5C5;
+	margin-top: 10px;
+	width: 100%;
+}
+.fileUploadProgressBar {
+	background-color: #0099FF;
+}
+.uploadthumbs
+{
+float:left; font-size:6pt; margin:2px; padding:2px; border:1 px solid #333333; background-color:#000000;
+}
+.uploadedfiles
+{
+margin-top:15px;
+margin-bottom:35px;
+height:500px;
+max-height:500px;
+float:left; width:380px; overflow-y:scroll;
+border: 3px solid #004000;
+}

@@ -1,0 +1,10 @@
+php_value upload_max_filesize 20M
+php_value post_max_size 20M
+php_value max_execution_time 2000
+php_value max_input_time 2000
+php_value memory_limit 100M
+
+ErrorDocument 404 /404.php
+ErrorDocument 500 /500.php
+ErrorDocument 400 /400.php
+ErrorDocument 403 /403.php

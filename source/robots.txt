@@ -1,0 +1,51 @@
+User-Agent: *
+Disallow: /albumcovers/
+Disallow: /css/
+Disallow: /editor/
+Disallow: /images/
+Disallow: /js/
+Disallow: /lib/
+Disallow: /photos/
+Disallow: /swf/
+Disallow: /userphotos/
+Disallow: /photos.php
+Disallow: /gallery.php
+Disallow: /showphoto.php
+Disallow: /showalbums.php
+Disallow: /showthumbs.php
+Disallow: /albuminfo.php
+Disallow: /editalbum.php
+Disallow: /editpage.php
+Disallow: /editprofile.php
+Disallow: /fullscreen.php
+Disallow: /fullscreen_xml.php
+Disallow: /createalbum.php
+Disallow: /reviewalbum.php
+Disallow: /reviewphotos.php
+Disallow: /cropphoto.php
+Disallow: /share.php
+Disallow: /manageusers.php
+Disallow: /managepages.php
+Disallow: /managealbums.php
+Disallow: /addcomment.php
+Disallow: /admin_index.php
+Disallow: /changepassword.php
+Disallow: /getnames.php
+Disallow: /photoview.php
+Disallow: /photoviewbig.php
+Disallow: /userview.php
+Disallow: /fckeditor.php
+Disallow: /upload.php
+Disallow: /uploadphotos.php
+Disallow: /profile.php
+Disallow: /protect_picture.php
+Disallow: /protect_picture_cache.php
+Disallow: /blog.php
+Disallow: /check.php
+Disallow: /class_cache.php
+Disallow: /class_protect_picture.php
+Disallow: /protect_picture_cache.php
+
+
+
+
