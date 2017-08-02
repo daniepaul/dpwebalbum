@@ -1,2 +1,2 @@
 # dpwebalbum
-Daniepaul web album
+web album
